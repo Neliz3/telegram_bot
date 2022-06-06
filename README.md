@@ -4,6 +4,8 @@ Telegram bot gets source and target languages from user and stores it in databas
 
 The <b>PostgreSQL</b> database is used for data storage.
 
+The bot, receiving a request from the user, processes it using the aiogram library, which interacts with the Telegram bot API.
+
 
 ## Table of context
 * [What the bot can do](#What-the-bot-can-do)
