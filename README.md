@@ -1,5 +1,5 @@
 # Telegram Bot for translating
-#### Telegram bot for translating in Python using aiogram, PostgreSQL, reverso-context-api and Google Translator
+#### Telegram bot for translating in Python using aiogram, reverso-context-api, PostgreSQL and Google Translator
 Telegram bot gets source and target languages from user and stores it in database. User can enter word/phrase and get translation of that.
 
 The <b>PostgreSQL</b> database is used for data storage.
