@@ -40,12 +40,14 @@ The bot, receiving a request from the user, processes it using the aiogram libra
     * `python3 -m venv env`
     * `. env/bin/activate`
 3. Run: `pip install -r requirements.txt` to install all necessary packages
-4. Run: `bash launch_bot.sh` to launch a bot
+4. Run: `sudo service postgresql start` to launch a database
+5. Run: `bash launch_bot.sh` to launch a bot
 #### How to run a bot on others OS?
 1. Download project locally
 2. Create venv and activate that
 3. Run: `pip install -r requirements.txt` to install all necessary packages
-4. Run: `python app.py` to launch a bot
+4. Run: `sudo service postgresql start` to launch a database
+5. Run: `python app.py` to launch a bot
 #### Errors
 1. Aiogram library works well on Linux OS, but may crash on other operating systems
     * Try download [aiogram](https://pypi.org/project/aiogram/) and [install](https://docs.aiogram.dev/en/latest/install.html) it
