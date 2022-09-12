@@ -4,7 +4,7 @@ import functools
 import operator
 
 
-# Connecting to DataBase
+# Connecting to a DataBase
 def db_connect():
     connection = psycopg2.connect(
         host=host,
@@ -18,7 +18,7 @@ def db_connect():
 
 # Create a new table
 #def new_table():
-#    connection = db_create()
+#    connection = db_connect()
 #    with connection.cursor() as cursor:
 #        cursor.execute(
 #            """CREATE TABLE users(
@@ -32,7 +32,7 @@ def db_connect():
 #    print("[INFO] Table created successfully")
 
 
-# Checking if user is in database
+# Checking if user is in a database
 def exist_user(user_id):
     connection = db_connect()
     with connection.cursor() as cursor:
@@ -159,7 +159,7 @@ def get_word(user_id):
         return a
 
 
-# Deleting user
+# Deleting a user
 def delete_user(user_id):
     connection = db_connect()
     with connection.cursor() as cursor:
