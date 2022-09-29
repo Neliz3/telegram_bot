@@ -63,4 +63,4 @@ Project is in progress
 * Adding feature for admin to get more statistic information
 
 #### Future changing:
-* Replace poolling with webhook
+* Replace polling with webhook
