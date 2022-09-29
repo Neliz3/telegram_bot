@@ -7,7 +7,7 @@ The <b>PostgreSQL</b> database is used for data storage.
 The bot, receiving a request from the user, processes it using the aiogram library, which interacts with the Telegram bot API.
 
 
-## Table of context
+## Table of contents
 * [What the bot can do](#What-the-bot-can-do)
 * [Technologies Used](#Technologies-Used)
 * [Setup](#Setup)
