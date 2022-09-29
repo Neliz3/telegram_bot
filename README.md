@@ -60,7 +60,7 @@ Project is in progress
 ## Room for improvement
 #### Future features:
 * Adding new languages
-* Adding feature for admin to get more statistic information
+* Adding feature for an admin to get more statistic information
 
 #### Future changing:
 * Replace polling with webhook
